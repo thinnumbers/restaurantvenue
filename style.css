@@ -1,0 +1,54 @@
+body{ /* website body */
+  background-color: #F6E19D; /* makes background a very light wood brownish color */
+  font-family: sans-serif; /* changes font to sans serif */
+}
+
+h1{ /* slogan and divider style */
+  font-style: italic; /* makes the slogan italicized */
+  color: #693013; /* makes the color dark brown */
+  text-align: center; /* aligns it to the center */
+}
+h2{ /* menu, location and contact us header*/
+  text-decoration: underline; /* underlines the header */
+  color: #693013; /* makes the color dark brown */
+  text-align: center; /* aligns it to the center */
+  margin-top: 50px; /* adds 50px to the top margin for spacing*/
+}
+p{ /* any text using paragraph tag will be this specific light brown*/
+  color: #a64d1e; /* colors text ligther brown */
+}
+.food{ /*food class used by menu images to adjust size and border*/
+  height: 300px; /* sets height and width to 300 px (square) */
+  width: 300px;
+  padding: 1px; /*sets padding to 1 px */
+  border: 1px; /* sets border to 1 px */
+}
+.food:hover{ /* when hovering over food, the border will appear*/
+  border: 1px solid #693013 /* makes the border solid brown when you hover */
+}
+
+.location{ /* location class used by the location images to adjust size and border*/
+  height: 350px; /* sets height and width to 350 by 450 (rectangle)*/
+  width: 450px;
+  padding: 25px;/* sets padding and border to 25px and 10 px repectively for spacing*/
+  border: 10px;
+}
+.contact{ /* only used by the contact logo to adjust size */
+  height: 400px; /* sets height and width to 400 px (square)*/
+  width: 400px;
+}
+#textItem{ /*textItem id used to edit certain properties of text */
+  color: #a64d1e; /* colors text lighter brown */
+  font-weight: bold; /* makes font bold */
+  font-size: 150%; /* increase font size so it is more visible*/
+  text-align: center; /* align to center*/
+  margin-left: auto; /* automatically sets left margin based on screen */
+  margin-right: auto; /* automatically sets right margin based on screen */
+}
+
+
+.center{ /* center class from w3schools used for the main logo at the top*/
+  display: block;
+  margin-left: auto; /* automatically sets left margin based on screen */
+  margin-right: auto; /* automatically sets right margin based on screen */
+}
